@@ -155,6 +155,10 @@ module Anemone
       @stop_crawl = true
     end
 
+    def stopped_crawl?
+      @stop_crawl
+    end
+
     #
     # Perform the crawl
     #
